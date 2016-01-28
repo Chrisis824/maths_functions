@@ -14,4 +14,9 @@ int main()
 	
 	printf("Enter a number\n");
 	return 0;
+	
+	int first = 8;
+	int second = 4;
+	newfunc = first - second;
+	return 0;
 }
