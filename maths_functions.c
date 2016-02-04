@@ -32,7 +32,7 @@ int lab4() {
     for (i = 0; i < 5; i++) {
     	scanf("%d", &a[i]);
     }
-    //Assume that a[0] is minimum
+    //Assume that a[0] is the maximum value
     max = a[0];
     for (i = 0; i < 5; i++) {
 	if (a[i] > max) {
@@ -42,7 +42,7 @@ int lab4() {
     printf("Maximum of five numbers is %d", max);
     return 0;
 
-   //Assume that a[0] is minimum
+   //Assume that a[0] is the minimum value
    min = a[0];
    for (i=0; i<5; i++){
    if (a[i] > min) {
